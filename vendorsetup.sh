@@ -27,11 +27,3 @@ add_lunch_combo community_hero_eu-eng
 add_lunch_combo community_hero_us-user
 add_lunch_combo community_hero_us-userdebug
 add_lunch_combo community_hero_us-eng
-
-add_lunch_combo community_liquid-user
-add_lunch_combo community_liquid-userdebug
-add_lunch_combo community_liquid-eng
-
-add_lunch_combo community_dream-user
-add_lunch_combo community_dream-userdebug
-add_lunch_combo community_dream-eng

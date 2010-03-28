@@ -28,5 +28,3 @@
 PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/community_hero_eu.mk \
 	$(LOCAL_DIR)/community_hero_us.mk \
-	$(LOCAL_DIR)/community_liquid.mk \
-	$(LOCAL_DIR)/community_dream.mk

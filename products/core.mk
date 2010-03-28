@@ -50,9 +50,6 @@ PRODUCT_PACKAGES := \
 	IMProvider \
 	LatinIME \
 	Launcher \
-	LiveWallpapers \
-	LiveWallpapersPicker \
-	MagicSmokeWallpapers \
 	MediaProvider \
 	Mms \
 	Music \
@@ -72,8 +69,6 @@ PRODUCT_PACKAGES := \
 	TtsService \
 	Updater \
 	UserDictionaryProvider \
-	VisualizationWallpapers \
-	CubeLiveWallpaper \
 	VoiceDialer \
 	VpnServices \
 	WebSearchProvider \
