@@ -17,3 +17,7 @@ ro.sf.lcd_density = 160
 # 0 => WCDMA Preferred.
 ro.telephony.default_network = 0
 
+#ro.build.user=nprussell #make the VillianROM boot.img work... (sigh)
+
+ro.build.display.id=Lee@sodnpoo.com community_hero_eu-eng 2.1-update1 ECLAIR
+

@@ -16,6 +16,8 @@
 
 # This is the config file for an actual configuration on HTC hero
 
+BUILD_DISPLAY_ID := Lee@sodnpoo.com
+
 ifeq ($(PRODUCT_REGION_EU),true)
 $(call inherit-product, vendor/aosp/products/aosp_eu.mk)
 else
@@ -170,6 +172,11 @@ endif # INCLUDE_ALL_LOCALES
 WITH_DEXPREOPT := true
 DISABLE_DEXPREOPT := false
 WITH_DEXPREOPT_buildbot := true
+
+WITH_JIT := true
+#PRODUCT_PROPERTY_OVERRIDES += dalvik.vm.execution-mode=int:fast
+PRODUCT_PROPERTY_OVERRIDES += dalvik.vm.execution-mode=int:jit
+
 
 # Build WebKit with V8
 JS_ENGINE := v8
