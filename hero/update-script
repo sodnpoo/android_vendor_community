@@ -1,0 +1,259 @@
+show_progress 0.1 0
+format SYSTEM:
+copy_dir PACKAGE:system SYSTEM:
+
+#install busybox
+delete SYSTEM:xbin/[ SYSTEM:xbin/[[ SYSTEM:xbin/arp SYSTEM:xbin/ash SYSTEM:xbin/awk SYSTEM:xbin/basename
+delete SYSTEM:xbin/bbconfig SYSTEM:xbin/bunzip2 SYSTEM:xbin/bzcat SYSTEM:xbin/bzip2 SYSTEM:xbin/cal
+delete SYSTEM:xbin/cat SYSTEM:xbin/catv SYSTEM:xbin/chattr SYSTEM:xbin/chgrp SYSTEM:xbin/chmod
+delete SYSTEM:xbin/chown SYSTEM:xbin/clear SYSTEM:xbin/cmp SYSTEM:xbin/cp SYSTEM:xbin/cpio
+delete SYSTEM:xbin/crond SYSTEM:xbin/cut SYSTEM:xbin/date SYSTEM:xbin/dc SYSTEM:xbin/dd
+delete SYSTEM:xbin/depmod SYSTEM:xbin/devmem SYSTEM:xbin/df SYSTEM:xbin/diff SYSTEM:xbin/dirname
+delete SYSTEM:xbin/dmesg SYSTEM:xbin/du SYSTEM:xbin/echo SYSTEM:xbin/ed SYSTEM:xbin/egrep
+delete SYSTEM:xbin/env SYSTEM:xbin/expr SYSTEM:xbin/false SYSTEM:xbin/fdisk SYSTEM:xbin/fgrep
+delete SYSTEM:xbin/find SYSTEM:xbin/fold SYSTEM:xbin/free SYSTEM:xbin/freeramdisk SYSTEM:xbin/fuser
+delete SYSTEM:xbin/getopt SYSTEM:xbin/grep SYSTEM:xbin/gunzip SYSTEM:xbin/gzip SYSTEM:xbin/head
+delete SYSTEM:xbin/hexdump SYSTEM:xbin/id SYSTEM:xbin/ifconfig SYSTEM:xbin/insmod SYSTEM:xbin/install
+delete SYSTEM:xbin/kill SYSTEM:xbin/killall SYSTEM:xbin/killall5 SYSTEM:xbin/less SYSTEM:xbin/ln
+delete SYSTEM:xbin/losetup SYSTEM:xbin/ls SYSTEM:xbin/lsattr SYSTEM:xbin/lsmod SYSTEM:xbin/md5sum
+delete SYSTEM:xbin/mkdir SYSTEM:xbin/mkfifo SYSTEM:xbin/mknod SYSTEM:xbin/mkswap SYSTEM:xbin/mktemp
+delete SYSTEM:xbin/modprobe SYSTEM:xbin/more SYSTEM:xbin/mount SYSTEM:xbin/mountpoint SYSTEM:xbin/mv
+delete SYSTEM:xbin/netstat SYSTEM:xbin/nice SYSTEM:xbin/nohup SYSTEM:xbin/od SYSTEM:xbin/patch
+delete SYSTEM:xbin/pidof SYSTEM:xbin/ping SYSTEM:xbin/pkill SYSTEM:xbin/printf SYSTEM:xbin/ps
+delete SYSTEM:xbin/pwd SYSTEM:xbin/rdev SYSTEM:xbin/readlink SYSTEM:xbin/renice SYSTEM:xbin/reset
+delete SYSTEM:xbin/rm SYSTEM:xbin/rmdir SYSTEM:xbin/rmmod SYSTEM:xbin/route SYSTEM:xbin/run-parts
+delete SYSTEM:xbin/sed SYSTEM:xbin/seq SYSTEM:xbin/setsid SYSTEM:xbin/sh SYSTEM:xbin/sha1sum
+delete SYSTEM:xbin/sha256sum SYSTEM:xbin/sha512sum SYSTEM:xbin/sleep SYSTEM:xbin/sort SYSTEM:xbin/split
+delete SYSTEM:xbin/stat SYSTEM:xbin/strings SYSTEM:xbin/stty SYSTEM:xbin/swapoff SYSTEM:xbin/swapon
+delete SYSTEM:xbin/sync SYSTEM:xbin/sysctl SYSTEM:xbin/tac SYSTEM:xbin/tail SYSTEM:xbin/tar
+delete SYSTEM:xbin/tee SYSTEM:xbin/telnet SYSTEM:xbin/test SYSTEM:xbin/time SYSTEM:xbin/top
+delete SYSTEM:xbin/touch SYSTEM:xbin/tr SYSTEM:xbin/traceroute SYSTEM:xbin/true SYSTEM:xbin/tty
+delete SYSTEM:xbin/umount SYSTEM:xbin/uname SYSTEM:xbin/uniq SYSTEM:xbin/unzip SYSTEM:xbin/uptime
+delete SYSTEM:xbin/uudecode SYSTEM:xbin/uuencode SYSTEM:xbin/vi SYSTEM:xbin/watch SYSTEM:xbin/wc
+delete SYSTEM:xbin/wget SYSTEM:xbin/which SYSTEM:xbin/xargs SYSTEM:xbin/yes SYSTEM:xbin/zcat
+delete SYSTEM:bin/dumpcrash SYSTEM:bin/cat SYSTEM:bin/chmod SYSTEM:bin/chown SYSTEM:bin/cmp
+delete SYSTEM:bin/date SYSTEM:bin/dd SYSTEM:bin/df SYSTEM:bin/dmesg SYSTEM:bin/getevent
+delete SYSTEM:bin/getprop SYSTEM:bin/hd SYSTEM:bin/id SYSTEM:bin/ifconfig SYSTEM:bin/iftop
+delete SYSTEM:bin/insmod SYSTEM:bin/ioctl SYSTEM:bin/kill SYSTEM:bin/ln SYSTEM:bin/log SYSTEM:bin/ls
+delete SYSTEM:bin/lsmod SYSTEM:bin/mkdir SYSTEM:bin/mount SYSTEM:bin/mv SYSTEM:bin/netstat
+delete SYSTEM:bin/newfs_msdos SYSTEM:bin/notify SYSTEM:bin/printenv SYSTEM:bin/ps SYSTEM:bin/reboot
+delete SYSTEM:bin/renice SYSTEM:bin/rm SYSTEM:bin/rmdir SYSTEM:bin/rmmod SYSTEM:bin/route
+delete SYSTEM:bin/schedtop SYSTEM:bin/sendevent SYSTEM:bin/setconsole SYSTEM:bin/setprop
+delete SYSTEM:bin/sleep SYSTEM:bin/smd SYSTEM:bin/start SYSTEM:bin/stop SYSTEM:bin/sync
+delete SYSTEM:bin/top SYSTEM:bin/umount SYSTEM:bin/vmstat SYSTEM:bin/watchprops SYSTEM:bin/wipe
+symlink busybox SYSTEM:xbin/[
+symlink busybox SYSTEM:xbin/[[
+symlink busybox SYSTEM:xbin/arp
+symlink busybox SYSTEM:xbin/ash
+symlink busybox SYSTEM:xbin/awk
+symlink busybox SYSTEM:xbin/basename
+symlink busybox SYSTEM:xbin/bbconfig
+symlink busybox SYSTEM:xbin/bunzip2
+symlink busybox SYSTEM:xbin/bzcat
+symlink busybox SYSTEM:xbin/bzip2
+symlink busybox SYSTEM:xbin/cal
+symlink busybox SYSTEM:xbin/cat
+symlink busybox SYSTEM:xbin/catv
+symlink busybox SYSTEM:xbin/chattr
+symlink busybox SYSTEM:xbin/chgrp
+symlink busybox SYSTEM:xbin/chmod
+symlink busybox SYSTEM:xbin/chown
+symlink busybox SYSTEM:xbin/clear
+symlink busybox SYSTEM:xbin/cmp
+symlink busybox SYSTEM:xbin/cp
+symlink busybox SYSTEM:xbin/cpio
+symlink busybox SYSTEM:xbin/crond
+symlink busybox SYSTEM:xbin/cut
+symlink busybox SYSTEM:xbin/date
+symlink busybox SYSTEM:xbin/dc
+symlink busybox SYSTEM:xbin/dd
+symlink busybox SYSTEM:xbin/depmod
+symlink busybox SYSTEM:xbin/devmem
+symlink busybox SYSTEM:xbin/df
+symlink busybox SYSTEM:xbin/diff
+symlink busybox SYSTEM:xbin/dirname
+symlink busybox SYSTEM:xbin/dmesg
+symlink busybox SYSTEM:xbin/du
+symlink busybox SYSTEM:xbin/echo
+symlink busybox SYSTEM:xbin/ed
+symlink busybox SYSTEM:xbin/egrep
+symlink busybox SYSTEM:xbin/env
+symlink busybox SYSTEM:xbin/expr
+symlink busybox SYSTEM:xbin/false
+symlink busybox SYSTEM:xbin/fdisk
+symlink busybox SYSTEM:xbin/fgrep
+symlink busybox SYSTEM:xbin/find
+symlink busybox SYSTEM:xbin/fold
+symlink busybox SYSTEM:xbin/free
+symlink busybox SYSTEM:xbin/freeramdisk
+symlink busybox SYSTEM:xbin/fuser
+symlink busybox SYSTEM:xbin/getopt
+symlink busybox SYSTEM:xbin/grep
+symlink busybox SYSTEM:xbin/gunzip
+symlink busybox SYSTEM:xbin/gzip
+symlink busybox SYSTEM:xbin/head
+symlink busybox SYSTEM:xbin/hexdump
+symlink busybox SYSTEM:xbin/id
+symlink busybox SYSTEM:xbin/ifconfig
+symlink busybox SYSTEM:xbin/insmod
+symlink busybox SYSTEM:xbin/install
+symlink busybox SYSTEM:xbin/kill
+symlink busybox SYSTEM:xbin/killall
+symlink busybox SYSTEM:xbin/killall5
+symlink busybox SYSTEM:xbin/less
+symlink busybox SYSTEM:xbin/ln
+symlink busybox SYSTEM:xbin/losetup
+symlink busybox SYSTEM:xbin/ls
+symlink busybox SYSTEM:xbin/lsattr
+symlink busybox SYSTEM:xbin/lsmod
+symlink busybox SYSTEM:xbin/md5sum
+symlink busybox SYSTEM:xbin/mkdir
+symlink busybox SYSTEM:xbin/mkfifo
+symlink busybox SYSTEM:xbin/mknod
+symlink busybox SYSTEM:xbin/mkswap
+symlink busybox SYSTEM:xbin/mktemp
+symlink busybox SYSTEM:xbin/modprobe
+symlink busybox SYSTEM:xbin/more
+symlink busybox SYSTEM:xbin/mount
+symlink busybox SYSTEM:xbin/mountpoint
+symlink busybox SYSTEM:xbin/mv
+symlink busybox SYSTEM:xbin/netstat
+symlink busybox SYSTEM:xbin/nice
+symlink busybox SYSTEM:xbin/nohup
+symlink busybox SYSTEM:xbin/od
+symlink busybox SYSTEM:xbin/patch
+symlink busybox SYSTEM:xbin/pidof
+symlink busybox SYSTEM:xbin/ping
+symlink busybox SYSTEM:xbin/pkill
+symlink busybox SYSTEM:xbin/printf
+symlink busybox SYSTEM:xbin/ps
+symlink busybox SYSTEM:xbin/pwd
+symlink busybox SYSTEM:xbin/rdev
+symlink busybox SYSTEM:xbin/readlink
+symlink busybox SYSTEM:xbin/renice
+symlink busybox SYSTEM:xbin/reset
+symlink busybox SYSTEM:xbin/rm
+symlink busybox SYSTEM:xbin/rmdir
+symlink busybox SYSTEM:xbin/rmmod
+symlink busybox SYSTEM:xbin/route
+symlink busybox SYSTEM:xbin/run-parts
+symlink busybox SYSTEM:xbin/sed
+symlink busybox SYSTEM:xbin/seq
+symlink busybox SYSTEM:xbin/setsid
+symlink busybox SYSTEM:xbin/sh
+symlink busybox SYSTEM:xbin/sha1sum
+symlink busybox SYSTEM:xbin/sha256sum
+symlink busybox SYSTEM:xbin/sha512sum
+symlink busybox SYSTEM:xbin/sleep
+symlink busybox SYSTEM:xbin/sort
+symlink busybox SYSTEM:xbin/split
+symlink busybox SYSTEM:xbin/stat
+symlink busybox SYSTEM:xbin/strings
+symlink busybox SYSTEM:xbin/stty
+symlink busybox SYSTEM:xbin/swapoff
+symlink busybox SYSTEM:xbin/swapon
+symlink busybox SYSTEM:xbin/sync
+symlink busybox SYSTEM:xbin/sysctl
+symlink busybox SYSTEM:xbin/tac
+symlink busybox SYSTEM:xbin/tail
+symlink busybox SYSTEM:xbin/tar
+symlink busybox SYSTEM:xbin/tee
+symlink busybox SYSTEM:xbin/telnet
+symlink busybox SYSTEM:xbin/test
+symlink busybox SYSTEM:xbin/time
+symlink busybox SYSTEM:xbin/top
+symlink busybox SYSTEM:xbin/touch
+symlink busybox SYSTEM:xbin/tr
+symlink busybox SYSTEM:xbin/traceroute
+symlink busybox SYSTEM:xbin/true
+symlink busybox SYSTEM:xbin/tty
+symlink busybox SYSTEM:xbin/umount
+symlink busybox SYSTEM:xbin/uname
+symlink busybox SYSTEM:xbin/uniq
+symlink busybox SYSTEM:xbin/unzip
+symlink busybox SYSTEM:xbin/uptime
+symlink busybox SYSTEM:xbin/uudecode
+symlink busybox SYSTEM:xbin/uuencode
+symlink busybox SYSTEM:xbin/vi
+symlink busybox SYSTEM:xbin/watch
+symlink busybox SYSTEM:xbin/wc
+symlink busybox SYSTEM:xbin/wget
+symlink busybox SYSTEM:xbin/which
+symlink busybox SYSTEM:xbin/xargs
+symlink busybox SYSTEM:xbin/yes
+symlink busybox SYSTEM:xbin/zcat
+
+#symlink dumpstate SYSTEM:bin/bugreport
+symlink dumpstate SYSTEM:bin/dumpcrash
+symlink toolbox SYSTEM:bin/cat
+symlink toolbox SYSTEM:bin/chmod
+symlink toolbox SYSTEM:bin/chown
+symlink toolbox SYSTEM:bin/cmp
+symlink toolbox SYSTEM:bin/date
+symlink toolbox SYSTEM:bin/dd
+symlink toolbox SYSTEM:bin/df
+symlink toolbox SYSTEM:bin/dmesg
+symlink toolbox SYSTEM:bin/getevent
+symlink toolbox SYSTEM:bin/getprop
+symlink toolbox SYSTEM:bin/hd
+symlink toolbox SYSTEM:bin/id
+symlink toolbox SYSTEM:bin/ifconfig
+symlink toolbox SYSTEM:bin/iftop
+symlink toolbox SYSTEM:bin/insmod
+symlink toolbox SYSTEM:bin/ioctl
+symlink toolbox SYSTEM:bin/kill
+symlink toolbox SYSTEM:bin/ln
+symlink toolbox SYSTEM:bin/ls
+symlink toolbox SYSTEM:bin/log
+symlink toolbox SYSTEM:bin/lsmod
+symlink toolbox SYSTEM:bin/mkdir
+symlink toolbox SYSTEM:bin/mkdosfs
+symlink toolbox SYSTEM:bin/mount
+symlink toolbox SYSTEM:bin/mv
+symlink toolbox SYSTEM:bin/netstat
+symlink toolbox SYSTEM:bin/notify
+symlink toolbox SYSTEM:bin/printenv
+symlink toolbox SYSTEM:bin/ps
+symlink toolbox SYSTEM:bin/renice
+symlink toolbox SYSTEM:bin/rm
+symlink toolbox SYSTEM:bin/rmdir
+symlink toolbox SYSTEM:bin/rmmod
+symlink toolbox SYSTEM:bin/route
+symlink toolbox SYSTEM:bin/schedtop
+symlink toolbox SYSTEM:bin/sendevent
+symlink toolbox SYSTEM:bin/setconsole
+symlink toolbox SYSTEM:bin/setprop
+symlink toolbox SYSTEM:bin/sleep
+symlink toolbox SYSTEM:bin/smd
+symlink toolbox SYSTEM:bin/start
+symlink toolbox SYSTEM:bin/stop
+symlink toolbox SYSTEM:bin/sync
+symlink toolbox SYSTEM:bin/top
+symlink toolbox SYSTEM:bin/ttycom
+symlink toolbox SYSTEM:bin/umount
+symlink toolbox SYSTEM:bin/vmstat
+symlink toolbox SYSTEM:bin/watchprops
+symlink toolbox SYSTEM:bin/wipe
+set_perm_recursive 0 0 0755 0644 SYSTEM:
+set_perm_recursive 0 2000 0755 0755 SYSTEM:bin
+set_perm 0 3003 02755 SYSTEM:bin/netcfg
+set_perm 0 3004 02755 SYSTEM:bin/ping
+#set_perm 0 2000 06755 SYSTEM:bin/reboot
+set_perm_recursive 1002 1002 0755 0440 SYSTEM:etc/bluez
+set_perm 0 0 0755 SYSTEM:etc/bluez
+set_perm 1002 1002 0440 SYSTEM:etc/dbus.conf
+set_perm 1014 2000 0550 SYSTEM:etc/dhcpcd/dhcpcd-run-hooks
+set_perm 0 2000 0550 SYSTEM:etc/init.goldfish.sh
+
+#set_perm 0 0 06755 SYSTEM:bin/su
+set_perm 1001 1005 0444 SYSTEM:etc/AudioPara4.csv
+set_perm_recursive 0 2000 0755 0750 SYSTEM:etc/init.d
+set_perm 0 0 0755 SYSTEM:etc/init.d
+set_perm_recursive 0 0 0755 0555 SYSTEM:etc/ppp
+set_perm_recursive 0 2000 0755 0755 SYSTEM:xbin
+
+set_perm 0 0 06755 SYSTEM:bin/su
+
+show_progress 0.1 10
+format CACHE:
+
